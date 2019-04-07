@@ -9,31 +9,31 @@
 	<package name="default" namespace="/exame" extends="struts-default">
 
 		<action name="view" class="br.com.orion.socproject.exame.action.ExameAction" method="view">
-			<result name="success">/jsp/exame/list.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/list.jsp</result>
 		</action>
 
 		<action name="delete" class="br.com.orion.socproject.exame.action.ExameAction" method="delete">
-			<result name="success">/jsp/exame/list.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/list.jsp</result>
 		</action>
 
 		<action name="prepareInsert" class="br.com.orion.socproject.exame.action.ExameAction" method="prepareInsert">
-			<result name="success">/jsp/exame/insert.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/insert.jsp</result>
 		</action>
 
 		<action name="insert" class="br.com.orion.socproject.exame.action.ExameAction" method="insert">
-			<result name="success">/jsp/exame/insert.jsp</result>
-			<result name="input">/jsp/exame/insert.jsp</result>
-			<result name="error">/fail.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/insert.jsp</result>
+			<result name="input">/WEB-INF/jsp/exame/insert.jsp</result>
+			<result name="error">/WEB-INF/fail.jsp</result>
 		</action>
 
 		<action name="prepareEdit" class="br.com.orion.socproject.exame.action.ExameAction" method="prepareEdit">
-			<result name="success">/jsp/exame/update.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/update.jsp</result>
 		</action>
 		
 		<action name="update" class="br.com.orion.socproject.exame.action.ExameAction" method="update">
-			<result name="success">/jsp/exame/update.jsp</result>
-			<result name="input">/jsp/exame/update.jsp</result>
-			<result name="error">/fail.jsp</result>
+			<result name="success">/WEB-INF/jsp/exame/update.jsp</result>
+			<result name="input">/WEB-INF/jsp/exame/update.jsp</result>
+			<result name="error">/WEB-INF/fail.jsp</result>
 		</action>
 		
 	</package>
