@@ -1,0 +1,112 @@
+body {
+	background-color: #eee;
+	font-family: "Montserrat", sans-serif;
+	display: grid;
+	position: absolute;
+	margin-top: 50px;
+}
+
+body, html {
+	margin: 0;
+	width: 600px;
+	left: calc(50% - 300px);
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr td {
+	padding: 10px;
+	font-size: 1em;
+	background-color: #e0edf4;
+}
+
+table thead, th {
+	background-color: rgb(184, 208, 216) !important;
+	font-size: 14px;
+	padding: 10px 0px;
+	text-align: center !important;
+	border: 0px;
+}
+
+.colPequeno {
+	width: 5%;
+}
+
+.btn {
+	width: 120px;
+	border: 1px solid black;
+	font-family: "Montserrat", sans-serif;
+	padding: 10px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.btnTabela {
+	width: 80px;
+	border: 1px solid black;
+	font-family: "Montserrat", sans-serif;
+	padding: 5px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	border-bottom: 3px solid black;
+	font-weight: bold;
+}
+
+.btnAdicionar {
+	margin-left: 20px;
+}
+
+.btnVoltar {
+	margin-left: 150px;
+}
+
+.btnVerde {
+	background-color: #007f00;
+	color: #fff;
+	margin-bottom: 2px;
+}
+
+.btnVermelho {
+	/* background-color: #ff2b3a; */
+	color: #ff2b3a;
+}
+
+.mensagemRetorno {
+	font-size: 1.3em;
+	color: #007f00;
+}
+
+#botaoSuperior {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 55%;
+}
+
+
+
+.colPequeno {
+	width: 100px;
+	height: 15px;
+}
+
+.colMedio {
+	width: 430px;
+	height: 15px;
+}
+
+<!--
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+#txtProcura {
+	background-repeat: no-repeat;
+	font-size: 16px;
+	border: 1px solid #ddd;
+}
+
